@@ -12,7 +12,6 @@ if __name__ == "__main__":
 	parser.add_argument ("-i", "--ip_address", help = "Location site or ip address requested")
 	args = parser.parse_args ()
 
-
 # If no ip or arguments are given, print a help message and exit
 if len (sys.argv) <= 1:
 		parser.print_help ()
